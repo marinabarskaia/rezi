@@ -1,0 +1,274 @@
+
+
+body {
+	text-rendering : optimizeLegibility;
+	-webkit-font-smoothing : antialiased;
+}
+
+a:hover {
+text-decoration: none;
+outline:none;
+}
+.navbar-light .navbar-nav .nav-link ,
+.nav-item a {
+	font-weight: bold;
+	color: #000000 !important;
+}
+.fade:not(.show) {
+   opacity: 1 !important; 
+   background-color:transparent !important;
+}
+.modal-sm{top:20%;}
+.modal-header span{margin-top:10px;}
+.container-fluid {
+	background-color: #FCFAFA;
+}
+
+.yolo-logo{display: block;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    top:10px;
+    transition: 400ms;
+
+}
+.yolo-logo img{
+	display:block;width:100%;
+
+}
+
+#hero {
+	padding: 50px 0;
+	/*min-height: 700px;*/
+	position: relative;
+}
+
+
+
+.hero-img-container {
+	position: absolute;
+	left: 0px;
+	padding: 0;
+}
+
+.hero-img {
+	max-width: 540px !important;
+	height: 540px;
+	overflow: hidden;
+	border-radius: 100%;
+}
+
+.hero-img img {
+	width: 100%;
+	height: auto;
+}
+
+.hero-title {
+	background-color: #FCFAFA;
+	border-radius: 150px;
+	padding: 25px 60px;
+	padding-right: 10px;
+	margin-top: 95px;
+	font-family: 'Playfair display'
+}
+
+.hero-title h1 {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #000;
+	text-decoration: none;
+	transition: 500ms;
+
+}
+
+
+.hero-meta p {
+	font-size: 22px;
+	line-height: 30px;
+	color: #404040;
+}
+
+
+.m-top-xs-5 { margin-top: 5rem; 
+}
+.article-card {
+	margin: 30px 0; 
+}
+ .yolo-logo:hover,
+.article-img:hover {
+	transform: scale(1.05);
+	transition: 400ms;
+}
+
+.article-img , .article-meta {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.article-img {
+	max-width: 160px;
+	height: 160px;
+    box-sizing: border-box;
+    background-clip: content-box;
+	overflow: hidden;
+    border-radius: 50%;
+	border:2px solid #06bf06;
+	transition: 400ms;
+}
+
+.article-img img {
+	width: 100%;
+	height: auto;
+}
+
+.article-meta {
+	min-width:70%;
+	margin-top: 3rem;
+	margin-left: 10px;
+}
+
+.article-meta h2 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #000;
+	display:inline;
+	padding-right:20px;
+	font-family: 'Playfair display'
+}
+
+.article-meta p {
+	color: #404040;
+	display:inline;
+}
+.hide{display:none !important;}
+
+
+#btn {
+	display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 50px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.2;
+    background: #06bf06;
+    box-shadow: 0 0 3px #ddd;
+    font-size: 20px;
+	font-weight: bold;
+	outline:0;
+}
+
+
+
+
+
+footer a {
+	color: #000;
+}
+
+
+
+#content .lead {
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 35px;
+	margin-top: 0;
+}
+
+#content p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+#social-share .btn-light{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+/* Media Queries */
+
+@media(max-width: 1200px) {
+
+	.hero-img {
+		width: 500px;
+		height: 500px;
+	}
+
+	.article-card {
+		text-align: center;
+	}
+	
+
+	footer {
+		text-align: center;
+	}
+
+	footer .justify-content-end {
+		justify-content: center!important;
+	}
+}
+
+
+@media(max-width: 992px) {
+
+	#hero {
+		padding: 30px 0 60px;
+	}
+
+	.hero-img-container {
+		position: static;
+		margin: 10px auto;
+		text-align: center;
+	}
+
+	.hero-img-container .hero-img {
+		display: inline-block;
+	}
+
+	.hero-title {
+		padding: 0;
+		margin: 0;
+	}
+		#hero {
+		text-align: center !important;
+	}
+	.m-top-xs-5 { margin-top: 2rem; 
+}
+}
+
+@media(max-width: 585px){
+
+	.article-card .text-left{
+		text-align: center !important;
+	}
+
+	.hero-img {
+		width: 350px;
+		height: 350px;
+	}
+	.hero-title h1 {
+	font-size: 40px;
+	line-height: 50px;
+	}
+	.article-img {
+    margin-right:0;
+}
+}
+
+@media(max-width: 320px){
+	.hero-img {
+		width: 300px;
+		height: 300px;
+	}
+	.article-img {
+    margin-right: 0;
+}
+}
+
+
+
